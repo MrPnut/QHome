@@ -1,0 +1,5 @@
+Downloading progs/v_flame.mdl to C7
+Downloading progs/v_tgun.mdl to C7
+Downloading progs/v_pipe.mdl to C7
+
+ wtf are they?

@@ -1,0 +1,2 @@
+int to string
+sprintf(str,"%d",i)
