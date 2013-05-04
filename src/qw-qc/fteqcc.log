@@ -1,0 +1,138 @@
+Source file: progs.src
+outputfile: qwprogs.dat
+compiling defs.qc
+compiling subs.qc
+in function SetMovedir (line 38),
+subs.qc:51: warning: SetMovedir: not all control paths return a value
+compiling combat.qc
+in function T_Damage (line 747),
+combat.qc:200: warning: Result of comparison is constant
+compiling items.qc
+in function PlaceItem (line 189),
+items.qc:200: warning: droptofloor: Too few parameters
+defs.qc:668:    droptofloor  is defined here
+compiling weapons.qc
+in function SpawnMeatSpray (line 120),
+weapons.qc:123: warning: org duplicate definition ignored
+weapons.qc:121:    org  is defined here
+in function CheatCommand (line 1173),
+weapons.qc:1197: warning: CheatCommand: contains unreachable code
+compiling world.qc
+compiling client.qc
+in function FindIntermission (line 132),
+client.qc:158: warning: FindIntermission: not all control paths return a value
+in function ValidateUser (line 422),
+client.qc:469: warning: ValidateUser: not all control paths return a value
+in function PutClientInServer (line 104),
+client.qc:545: warning: Assignment to constant rj
+defs.qc:469:    rj  is defined here
+compiling spectate.qc
+compiling player.qc
+compiling doors.qc
+compiling buttons.qc
+compiling triggers.qc
+compiling plats.qc
+compiling misc.qc
+in function misc_fireball (line 197),
+misc.qc:205: warning: Effectless statement
+in function misc_explobox (line 262),
+misc.qc:278: warning: droptofloor: Too few parameters
+defs.qc:668:    droptofloor  is defined here
+in function misc_explobox2 (line 295),
+misc.qc:311: warning: droptofloor: Too few parameters
+defs.qc:668:    droptofloor  is defined here
+in function LaunchLaser (line 362),
+misc.qc:364: warning: vec duplicate definition ignored
+misc.qc:363:    vec  is defined here
+in function func_illusionary (line 613),
+misc.qc:620: warning: makestatic: Too few parameters
+defs.qc:705:    makestatic  is defined here
+compiling server.qc
+Recognised progs as QuakeWorld
+Progs should run on any Quake executor
+at global scope,
+defs.qc:451: warning: movedist  no references
+defs.qc:454: warning: empty_float  no references
+defs.qc:476: warning: wad  no references
+defs.qc:487: warning: light_lev  no references
+defs.qc:495: warning: th_walk  no references
+defs.qc:496: warning: th_run  no references
+defs.qc:497: warning: th_missile  no references
+defs.qc:498: warning: th_melee  no references
+defs.qc:502: warning: oldenemy  no references
+defs.qc:506: warning: lefty  no references
+defs.qc:508: warning: search_time  no references
+defs.qc:509: warning: attack_state  no references
+defs.qc:523: warning: maxspeed  no references
+defs.qc:524: warning: gravity  no references
+defs.qc:567: warning: dest  no references
+defs.qc:614: warning: waitmin  no references
+defs.qc:614: warning: waitmax  no references
+defs.qc:615: warning: distance  no references
+defs.qc:616: warning: volume  no references
+combat.qc:140: warning: s  no references
+items.qc:57: warning: stemp  no references
+items.qc:58: warning: best  no references
+items.qc:127: warning: stemp  no references
+items.qc:128: warning: best  no references
+items.qc:305: warning: amount  no references
+items.qc:1110: warning: stemp  no references
+items.qc:1111: warning: best  no references
+items.qc:1243: warning: stemp  no references
+items.qc:1244: warning: best  no references
+items.qc:1316: warning: stemp  no references
+items.qc:1317: warning: best  no references
+weapons.qc:748: warning: old  no references
+weapons.qc:766: warning: old  no references
+weapons.qc:796: warning: hit_z  no references
+weapons.qc:799: warning: rand  no references
+weapons.qc:845: warning: rand  no references
+world.qc:401: warning: e  no references
+client.qc:246: warning: pos  no references
+client.qc:342: warning: newspot  no references
+client.qc:344: warning: rnum  no references
+client.qc:345: warning: rs  no references
+client.qc:482: warning: s  no references
+client.qc:650: warning: newmap  no references
+client.qc:725: warning: old_self  no references
+client.qc:760: warning: start  no references
+client.qc:760: warning: end  no references
+client.qc:918: warning: mspeed  no references
+client.qc:918: warning: aspeed  no references
+client.qc:919: warning: r  no references
+client.qc:1155: warning: mspeed  no references
+client.qc:1155: warning: aspeed  no references
+client.qc:1156: warning: r  no references
+client.qc:1236: warning: s  no references
+buttons.qc:113: warning: gtemp  no references
+buttons.qc:113: warning: ftemp  no references
+triggers.qc:28: warning: stemp  no references
+triggers.qc:28: warning: otemp  no references
+triggers.qc:28: warning: old  no references
+triggers.qc:250: warning: junk  no references
+plats.qc:177: warning: t  no references
+misc.qc:531: warning: vtmp1  no references
+misc.qc:531: warning: modi  no references
+ 39120 strofs (of 1000000)
+ 11450 numstatements (of 524288)
+   482 numfunctions (of 16384)
+  2116 numglobaldefs (of 32768)
+   216 numfielddefs (194 unique) (of 2048)
+  2130 numpr_globals (of 65536)
+Writing qwprogs.dat
+175436 TOTAL SIZE
+Writing qwprogs.lno
+140 unique precache_sounds
+ 65 unique precache_models
+104 unique precache_files
+Compile Complete
+
+optres_shortenifnots 65
+optres_overlaptemps 5054
+optres_constantarithmatic 29
+optres_nonvec_parms 2275
+optres_assignments 249
+optres_unreferenced 81
+optres_dupconstdefs 115
+numtemps 88
+75 warnings
